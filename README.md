@@ -1,5 +1,5 @@
 # csharp-bloom-filter
-###Generic Bloom Filter implementation in C#
+###Generic Bloom Filter implementation in C&#35;
 
 ####Example usage:
 ```C#
