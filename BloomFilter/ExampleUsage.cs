@@ -19,7 +19,7 @@ namespace BloomFilter
                 b = bf.Contains("Never been seen before"); //false (usually ;))
             }
 
-            //using a different algorithm
+            //using a different hash algorithm (such as the provided FNV1a-32 implementation)
             using (var bf = new BloomFilter<string, FNV1a32>(MaxItems: 1000, FalsePositiveProbability: .001))
             {
                 //add, check for existence, etc.
